@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+  #hamburger {
+    display: block;
+  }
+
+  .hamburger #ham-btn.active + svg {
+    transform: rotate(-45deg);
+  }
+
+  .hamburger #ham-btn.active + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+
+  aside {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+
+  aside.active {
+    display: flex;
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .counter-section {
+    padding: 20px;
+  }
+
+  .services-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-container h2 {
+    font-size: 54px;
+  }
+
+  .hero-container h3 {
+    font-size: 14px;
+  }
+
+  .hero-container a {
+    padding: 10px 15px;
+  }
+
+  .service {
+    width: 45%;
+  }
+
+  .counter-container {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .counter {
+    width: 40%;
+  }
+
+  .main-contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  section.contact {
+    margin-bottom: 20px;
+  }
+}

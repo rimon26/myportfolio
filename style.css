@@ -618,7 +618,7 @@ main {
 
 .contact-container {
   width: 100%;
-  animation: animRight 10s ease 0s 1 normal forwards;
+  animation: animLeft 10s ease 0s 1 normal forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
